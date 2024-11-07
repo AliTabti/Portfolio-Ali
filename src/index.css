@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'heroicBrutal'; /* Le nom que vous allez utiliser dans votre CSS */
+    src: url('C:\Users\HP\Desktop\Portfolio\src\fonts\heroic-brutal.otf') format('opentype'); /* Chemin relatif à votre fichier de police */
+    font-weight: normal; /* ou bold si la police est grasse */
+    font-style: normal; /* ou italic si nécessaire */
+}
+
+:root{
+    font-family: "Inter" , sans-serif;
+
+        color: white;
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 3rem;
+      
+}
+
